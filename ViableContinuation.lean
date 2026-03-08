@@ -1,0 +1,42 @@
+-- Viable Continuation Under Constraint
+-- Root barrel: public module surface.
+-- Phase I: Core stubs only. Phase II+: formal ontology, measures, theorems, bridges.
+
+import ViableContinuation.Core.System
+import ViableContinuation.Core.Transitions
+import ViableContinuation.Core.Constraints
+import ViableContinuation.Core.Traces
+import ViableContinuation.Core.Channels
+import ViableContinuation.Core.Anchors
+import ViableContinuation.Core.LocalGlobal
+import ViableContinuation.Core.Viability
+import ViableContinuation.Measures.TransitionPressure
+import ViableContinuation.Measures.ConstraintCapacity
+import ViableContinuation.Measures.TraceCapacity
+import ViableContinuation.Measures.Correlation
+import ViableContinuation.Measures.ProxyDetachment
+import ViableContinuation.Measures.LocalGlobalLoad
+import ViableContinuation.Measures.StabilityMargin
+import ViableContinuation.Theorems.Robustness
+import ViableContinuation.Theorems.SystemDiachronicCorrectionFailure
+import ViableContinuation.Theorems.WeakAnchorUnsoundness
+import ViableContinuation.Theorems.DecouplingGeneratesPathology
+import ViableContinuation.Theorems.ConstraintDeficitBlocksViableContinuation
+import ViableContinuation.Theorems.CorrelatedFailureFragility
+import ViableContinuation.Theorems.ProxyDrift
+import ViableContinuation.Theorems.LocalGlobalPathology
+import ViableContinuation.Theorems.CorrelatedFailure
+import ViableContinuation.Theorems.ConstraintDeficit
+import ViableContinuation.Theorems.CompositeBoundary
+import ViableContinuation.Theorems.Summit
+import ViableContinuation.Bridges.BridgeSchema
+import ViableContinuation.Bridges.AGISchema
+import ViableContinuation.Bridges.LawSchema
+import ViableContinuation.Bridges.BioSchema
+import ViableContinuation.Bridges.CivSchema
+import ViableContinuation.Bridges.WarSchema
+import ViableContinuation.Bridges.PluralismSchema
+import ViableContinuation.Bridges.EcologySchema
+import ViableContinuation.Bridges.ScienceSchema
+import ViableContinuation.Bridges.PhysicalSchema
+import ViableContinuation.Bridges.FrontierPrinciples
