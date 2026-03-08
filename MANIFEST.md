@@ -1,14 +1,14 @@
 # viable-continuation-lean — Artifact Manifest
 
-**Status:** Phase VI (Summit) complete  
+**Status:** Phases I–VI complete; VII (Bridges) + VII+ (FrontierPrinciples) complete  
 **Date:** March 8, 2026  
 **Lean version:** leanprover/lean4:v4.29.0-rc3  
 **Mathlib version:** v4.29.0-rc3  
 
 ## Phase I Deliverables
 
-- [x] Repo exists at `~/viable-continuation-lean`
-- [x] Symlink in NEMS_PAPERS points to repo
+- [x] Repo: https://github.com/novaspivack/viable-continuation-lean
+- [x] Submodule at `NEMS_PAPERS/viable-continuation-lean` (or clone to `~/viable-continuation-lean` for short-path builds)
 - [x] Library builds successfully from short path
 - [x] Directory structure matches spec
 - [x] Initial docs (README, MANIFEST, ARTIFACT, docs/Overview)
@@ -84,13 +84,17 @@ Reference: Principles Paper Phase 2, FRONTIER_BRIDGE_TARGET_LEDGER.md
 
 ```
 viable-continuation-lean/
+├── .github/workflows/lean_action_ci.yml
 ├── lean-toolchain
 ├── lakefile.lean
+├── lake-manifest.json
 ├── README.md
 ├── MANIFEST.md
 ├── ARTIFACT.md
 ├── docs/
-│   └── Overview.md
+│   ├── Overview.md
+│   ├── PHASE_III_MEASURE_AUDIT.md
+│   └── Spine.md
 ├── ViableContinuation.lean
 └── ViableContinuation/
     ├── Core/
@@ -104,14 +108,18 @@ viable-continuation-lean/
     │   └── Viability.lean
     ├── Measures/         (Phase III)
     ├── Theorems/          (Phase IV+)
-    ├── Bridges/           (Phase VII)
-    └── Examples/          (Phase IV+)
+    └── Bridges/           (Phase VII, VII+)
+        ├── BridgeSchema.lean
+        ├── AGISchema.lean, LawSchema.lean, BioSchema.lean
+        ├── CivSchema.lean, WarSchema.lean, PluralismSchema.lean
+        ├── EcologySchema.lean, ScienceSchema.lean, PhysicalSchema.lean
+        └── FrontierPrinciples.lean  (Phase VII+)
 ```
 
 ## Reproduction
 
 ```bash
-cd ~/viable-continuation-lean
+cd viable-continuation-lean   # or ~/viable-continuation-lean if cloned separately
 lake update
 lake build
 ```

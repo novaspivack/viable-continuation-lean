@@ -1,5 +1,7 @@
 # viable-continuation-lean
 
+**Repository:** https://github.com/novaspivack/viable-continuation-lean
+
 Lean 4 formalization of the **Viable Continuation Under Constraint** framework—a general theory of stability, pathology, and collapse across reflexive and recursively constrained systems.
 
 ## Purpose
@@ -13,12 +15,12 @@ This library aims to prove a **general viability-boundary theorem family** from 
 **Requirements:** Lean 4.29.0-rc3, Mathlib v4.29.0-rc3
 
 ```bash
-cd ~/viable-continuation-lean
+cd viable-continuation-lean   # or ~/viable-continuation-lean if cloned separately
 lake update
 lake build
 ```
 
-**Critical:** Always build from the **real short path** (`~/viable-continuation-lean`), never from a long symlinked path, to avoid Mathlib path-length errors.
+**Critical:** When used as a submodule under `NEMS_PAPERS/`, always build from a **short path** (e.g. clone to `~/viable-continuation-lean` or run from the submodule’s short canonical path), never from a long symlinked path, to avoid Mathlib path-length errors.
 
 ## Dependency Policy
 
@@ -32,8 +34,7 @@ lake build
 | `ViableContinuation/Core/` | System, Transitions, Constraints, Traces, Channels, Anchors, LocalGlobal, Viability |
 | `ViableContinuation/Measures/` | Constraint capacity, transition pressure, trace capacity, etc. |
 | `ViableContinuation/Theorems/` | Foothill, ridge, summit theorems |
-| `ViableContinuation/Bridges/` | Domain interpretation schemas (AGI, law, biology, markets, …) |
-| `ViableContinuation/Examples/` | Toy systems, minimal counterexamples |
+| `ViableContinuation/Bridges/` | Domain schemas (AGI, Law, Bio, Civ, War, Pluralism, Ecology, Science, Physical) and FrontierPrinciples |
 
 ## Documentation
 

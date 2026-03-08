@@ -30,8 +30,9 @@ The **Viable Continuation Program (VCP)** creates a new Lean library for a gener
 | IV | Foothill theorems | ✓ |
 | V | Ridge theorems | ✓ |
 | VI | Summit theorem | ✓ |
-| VII | Interpretation bridges | Pending |
-| VIII | Flagship paper | Pending |
+| VII | Interpretation bridges (nine domain schemas) | ✓ |
+| VII+ | FrontierPrinciples — frontier canon → defect witnesses | ✓ |
+| VIII | Flagship paper + Principles paper | ✓ |
 
 ## Preferred Vocabulary
 
@@ -42,8 +43,13 @@ The **Viable Continuation Program (VCP)** creates a new Lean library for a gener
 - local-to-global compatibility, global viability  
 - viable continuation, pathology, fragility, collapse, constraint deficit  
 
+## Phase VII+ FrontierPrinciples
+
+`Bridges.FrontierPrinciples` maps a canonical frontier-principles canon (AGI, civilization, pluralism, war, science, biology, ecology, markets) to defect witnesses in each domain bridge. Each principle is proved to satisfy `LocalGlobalDecoupled` and common-mode failure per the abstract spine. See **FRONTIER_BRIDGE_TARGET_LEDGER.md** in `71_71.1_Viable_Continuation_Program/10_Status_and_Review/` for the full ledger.
+
 ## References
 
 - **VIABLE_CONTINUATION_PROGRAM.md** — Full execution spec
 - **CODING_PROTOCOLS.md** — NEMS suite coding protocols
 - **nems-lean** — Abstract-core libraries (Closure, SelectorStrength, etc.)
+- **FRONTIER_BRIDGE_TARGET_LEDGER.md** — Frontier principles ↔ defect witnesses mapping
