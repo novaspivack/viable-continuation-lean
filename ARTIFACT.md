@@ -20,8 +20,8 @@ Phases I–VI complete: core ontology (II), measures (III), foothill theorems (I
 
 - **Paper 71 (Flagship):** *Viable Continuation Under Constraint: A General Theory of Stability, Pathology, and Collapse Across Reflexive Systems*
   - `NEMS_PAPERS/71_71.1_Viable_Continuation_Program/08_Flagship_Paper/`
-- **Principles Paper:** *Structural Principles of Stability, Pathology, and Collapse — Canonical Principles of Viable Continuation Across Reflexive Systems*
-  - `NEMS_PAPERS/71_71.1_Viable_Continuation_Program/08.1_Principles_Paper/`
+- **Paper 72 (Principles):** *Structural Principles of Stability, Pathology, and Collapse — Canonical Principles of Viable Continuation Across Reflexive Systems*
+  - `NEMS_PAPERS/72_Structural_Principles/`
 
 ## Build and Citation
 
