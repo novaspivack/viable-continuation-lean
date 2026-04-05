@@ -52,3 +52,6 @@ lake build
 ## License
 
 See [LICENSE](LICENSE) if present.
+<!-- NOVA_ZPO_ZENODO_SOFTWARE_BEGIN -->
+**Archival software (Zenodo):** https://doi.org/10.5281/zenodo.19429260
+<!-- NOVA_ZPO_ZENODO_SOFTWARE_END -->
