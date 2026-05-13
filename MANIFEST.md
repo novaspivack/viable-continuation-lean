@@ -2,8 +2,8 @@
 
 **Status:** Phases I–VI complete; VII (Bridges) + VII+ (FrontierPrinciples) complete  
 **Date:** March 8, 2026  
-**Lean version:** leanprover/lean4:v4.29.0-rc3  
-**Mathlib version:** v4.29.0-rc3  
+**Lean version:** leanprover/lean4:v4.29.1  
+**Mathlib version:** v4.29.1  
 
 ## Phase I Deliverables
 

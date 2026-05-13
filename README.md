@@ -12,7 +12,7 @@ This library aims to prove a **general viability-boundary theorem family** from 
 
 ## Build
 
-**Requirements:** Lean 4.29.0-rc3, Mathlib v4.29.0-rc3
+**Requirements:** Lean 4.29.0-rc3, Mathlib v4.29.1
 
 ```bash
 cd viable-continuation-lean   # or ~/viable-continuation-lean if cloned separately
