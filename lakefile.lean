@@ -9,4 +9,4 @@ require mathlib from git
 
 @[default_target]
 lean_lib «ViableContinuation» where
-  globs := #[.submodules `ViableContinuation]
+  roots := #[`ViableContinuation]
